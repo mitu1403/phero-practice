@@ -1,0 +1,23 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+nav ul{
+  display: flex;
+
+}
+nav li{
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 10px 15px;
+}
+nav li:hover{
+  background-color: rgb(217, 250, 250);
+}
+nav li a{
+  text-decoration: none;
+  color: grey;
+}

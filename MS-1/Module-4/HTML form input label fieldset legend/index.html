@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML form</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        gap: 1rem;    
+      }
+      label {
+        display: block;
+        margin: 0 0 .9rem;
+      }
+      input{
+        margin-left: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Welcome to Pitha Ghor</h2>
+    <form>
+      <label for="name"
+        >Your Name <input type="text" id="name" placeholder="your name" />
+      </label>
+
+      <label for="email"
+        >Your Email <input type="email" id="email" placeholder="your email" />
+      </label>
+
+      <fieldset>
+        <legend>Pick one item</legend>
+        <label for="burger">
+          <input type="radio" name="food" id="burger"> burger
+        </label>
+        <label for="pizza">
+          <input type="radio" name="food" id="pizza"> pizza
+        </label>
+        <label for="nuggets">
+          <input type="radio" name="food" id="nuggets"> nuggets
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select one or more drinks</legend>
+        <label for="cock">
+          <input type="checkbox" name="food" id="cock"> cock
+        </label>
+        <label for="sprite">
+          <input type="checkbox" name="food" id="sprite"> sprite
+        </label>
+        <label for="fanta">
+          <input type="checkbox" name="food" id="fanta"> fanta
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <input type="reset" value="Reset">
+      
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
