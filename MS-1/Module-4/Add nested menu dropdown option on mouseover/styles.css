@@ -1,0 +1,40 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+nav > ul{
+  display: flex;
+}
+nav li{
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 10px 15px;
+}
+nav li:hover{
+  background-color: rgb(217, 250, 250);
+}
+nav li a{
+  text-decoration: none;
+  color: grey;
+}
+
+/* Nested Menu */
+nav li > .dropdown{
+  display: none;
+  position: absolute;
+  padding-left: 0 ;
+  background-color: beige;
+
+}
+nav li:hover > .dropdown{
+  display: block;
+  margin-top: 10px;
+}
+.dropdown li{
+  margin-left: 0px;
+}
