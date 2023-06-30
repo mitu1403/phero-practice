@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+nav ul{
+  display: flex;
+}
+nav li{
+  list-style: none;
+  margin-left: 50px;
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+.text-primary{
+  color: #FD6E0A;
+}
