@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.btn-primary{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #ff5959;
+  padding: 16px 15px;
+  border: none;
+}
+section, footer{
+  margin-top: 130px;
+}
+.title{
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 28px;
+  margin: 30px 0;
+}
+
+header{
+  padding: 175px 310px;
+  background-image: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%), url(../images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  text-align: center;
+}
+header h1{
+  font-size: 65px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.donate-today{
+  text-align: center;
+  padding: 0 307px;
+}
+.donate-today h2, .donate-plan h2, .my-update h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+.donate-today .title{
+  color: #707070;
+}
+.amount {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+.amount div{
+  color: #707070;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #fafafa;
+  padding: 44px 24px;
+}
+.amount div.selected{
+  color: #ff5959;
+  border: 1px solid #ff5959;
+}
+.donate-today input{
+  border: .5px solid transparent;
+  border-bottom: .5px solid #dadada;
+  width:100%;
+  margin: 70px 0 50px 0;
+  padding: 10px 0;
+}
+.donate-today input::placeholder{
+  text-align: center;
+  color: #b3b3b3;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.donate-plan{
+  padding: 0 150px;
+  text-align: center;
+}
+.donate-plan .title{
+  color: #707070;
+  padding: 0 200px;
+}
+.plans {
+  margin: 40px 0;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+}
+.plans div{
+  border-radius: 5px;
+  padding: 22px;
+  text-align: left;
+}
+.plans div:nth-child(1){background-color: rgba(79, 157, 166, 0.10);}
+.plans div:nth-child(2){background-color: rgba(255, 89, 89, 0.10);}
+.plans div:nth-child(3){background-color: #FFF4D6;}
+.plans img{
+  margin: 40px 0 20px 0;
+}
+.plans h3{
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.plans p{
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.card{
+  margin-top: 130px;
+  display: flex;
+  text-align: left;
+  gap: 124px;
+  align-items: center;
+}
+.card h3{
+  color: #121212;
+  font-size: 45px;
+  font-weight: 700;
+}
+.card p{
+  color: #707070;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 25px 0;
+}
+
+.my-update{
+  padding: 0 374px;
+  text-align: center;
+}
+.my-update .title{
+  color: #707070;
+}
+.my-update form{
+  padding: 55px 0;
+  background-color: #fff4d6;
+}
+.my-update input{
+  padding: 22.5px 15px 18px 15px;
+  border:none;
+  border-radius: 5px 0 0 5px;
+  background-color: #d9d9d9;
+
+}
+.my-update input::placeholder{
+  color: #aa9f9f;
+  font-weight: 500;
+  line-height: 20px;
+}
+.my-update button{
+  margin-left: -5px;
+  border-radius: 0px 5px 5px 0;
+}
+
+footer{
+  padding: 43px 0;
+  text-align: center;
+  background-color: #0b0d17;
+}
+footer p{
+  color: #ff5959;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 30px;
+}
+footer small{
+  color: #d9dbe1;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Manrope', sans-serif;
+}
+
