@@ -69,7 +69,7 @@ nav li {
   margin-bottom: 20px;
 }
 
-main {
+main{
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -152,4 +152,39 @@ main {
 }
 .resume .desc{
   color: #757575;
+}
+
+footer{
+  background-color: #fff8f3;
+  margin-top: 130px;
+}
+
+.contact{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0;
+  display: flex;
+  gap: 100px;
+}
+.contact .section-title{
+  text-align: left;
+}
+.contact p{
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.contact a{
+  margin-right: 10px;
+}
+form input, textarea{
+  width: 88%;
+  margin-bottom: 24px;
+  border: 0;
+  padding: 18px 30px;
+  border-radius: 5px;
+}
+form input{
+  height: 40px;
+
 }
