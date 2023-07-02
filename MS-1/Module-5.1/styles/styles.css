@@ -86,12 +86,12 @@ header h1{
 }
 
 .donate-plan{
-  padding: 0 200px;
+  padding: 0 150px;
   text-align: center;
 }
 .donate-plan .title{
   color: #707070;
-  padding: 0 100px;
+  padding: 0 200px;
 }
 .plans {
   margin: 40px 0;
@@ -127,7 +127,7 @@ header h1{
   margin-top: 130px;
   display: flex;
   text-align: left;
-  gap: 94px;
+  gap: 124px;
   align-items: center;
 }
 .card h3{
@@ -189,3 +189,4 @@ footer small{
   line-height: 24px;
   font-family: 'Manrope', sans-serif;
 }
+
