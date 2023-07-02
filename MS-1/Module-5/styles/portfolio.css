@@ -17,6 +17,12 @@
   border: none;
   padding: 18px 35px;
 }
+.btn-secondary{
+  color: #fd6e0a;
+  background-color: white;
+  border: 1px solid #fd6e0a;
+  margin-left: 20px;
+}
 section{
   margin-top: 130px;
 }
