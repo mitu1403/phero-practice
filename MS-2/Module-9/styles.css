@@ -45,10 +45,9 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav h3 {
-  color: var(--dark1);
-  font-size: 2.813rem;
-  font-weight: 700;
+nav img{
+  width: 150px;
+  mix-blend-mode: color-burn;
 }
 nav > ul {
   display: flex;
@@ -246,6 +245,9 @@ footer p {
   }
   section {
     padding-bottom: 50px;
+  }
+  header {
+    padding: 10px 0px;
   }
   nav {
     flex-direction: column;
