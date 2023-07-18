@@ -20,6 +20,8 @@
       .nav {
         grid-area: nav;
       }
+      .nav ul{
+      }
       .main {
         grid-area: main;
       }
@@ -62,6 +64,11 @@
           "sidebar main main"
           "advertise footer footer" ;
         }
+        .nav ul{
+          display: flex;
+          justify-content: space-between;
+          padding-left: 0;
+      }
         
       }
     </style>
@@ -71,11 +78,11 @@
       <h1>The Header</h1>
     </header>
     <nav class="nav">
-      <ol>
+      <ul>
         <li>Nav 1</li>
         <li>Nav 2</li>
         <li>Nav 3</li>
-      </ol>
+      </ul>
     </nav>
     <main class="main">
       <article>
