@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-areas:
+          "header header header header"
+          "nav main main sidebar"
+          "nav main main advertise"
+          "footer footer footer footer";
+        gap: 20px;
+      }
+      .header {
+        grid-area: header;
+      }
+      .nav {
+        grid-area: nav;
+      }
+      .main {
+        grid-area: main;
+      }
+      .sidebar {
+        grid-area: sidebar;
+      }
+      .advertise {
+        grid-area: advertise;
+      }
+      .footer {
+        grid-area: footer;
+      }
+      .header,
+      .nav,
+      .main,
+      .sidebar,
+      .advertise,
+      .footer {
+        background-color: antiquewhite;
+        border: 1px solid salmon;
+        border-radius: 5px;
+        padding: 5px;
+      }
+      @media screen and (max-width: 576px) {
+        .container {
+          grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "sidebar"
+            "advertise"
+            "footer";
+        }
+      }
+      @media screen and (min-width: 577px) and (max-width: 992px) {
+        .container{
+          grid-template-areas: 
+          "header header header"
+          "nav nav nav"
+          "sidebar main main"
+          "advertise footer footer" ;
+        }
+        
+      }
+    </style>
+  </head>
+  <body class="container">
+    <header class="header">
+      <h1>The Header</h1>
+    </header>
+    <nav class="nav">
+      <ol>
+        <li>Nav 1</li>
+        <li>Nav 2</li>
+        <li>Nav 3</li>
+      </ol>
+    </nav>
+    <main class="main">
+      <article>
+        <h3>Main Article 1</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
+          quis error quod numquam culpa placeat deleniti ipsa dolorem eum
+          mollitia?
+        </p>
+      </article>
+      <article>
+        <h3>Main Article 2</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
+          delectus. Culpa eveniet necessitatibus expedita iste eius alias sequi
+          possimus aut?
+        </p>
+      </article>
+    </main>
+    <div class="sidebar"><h4>Sidebar</h4></div>
+    <div class="advertise"><h4>Advertise</h4></div>
+    <footer class="footer"><h2>The Footer</h2></footer>
+  </body>
+</html>
