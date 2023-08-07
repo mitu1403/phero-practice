@@ -13,3 +13,7 @@
 > ### Module-11
 - [gamer-zone](https://mitu1403.github.io/phero-practice/MS-2/Module-11/index.html)
 
+## MS-3
+
+> ### Module-15
+- [frut-hall](https://mitu1403.github.io/phero-practice/MS-2/Module-15/index.html)
