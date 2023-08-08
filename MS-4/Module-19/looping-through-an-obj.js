@@ -12,9 +12,10 @@ console.log(values)
 for(var i=0; i < keys.length; i++){
   let propertyName = keys[i]
   let value =  mobile[propertyName]
-  // console.log(propertyName, value)
+  console.log(propertyName, value)
 }
 
+// Using `for in` loop 
 console.log("\nUsing for in loop")
 for( propertyName in mobile ){
   console.log(propertyName, mobile[propertyName])
