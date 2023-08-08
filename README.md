@@ -15,5 +15,8 @@
 
 ## MS-3
 
+> ### Module-12
+- [frut-hall](https://mitu1403.github.io/phero-practice/MS-3/Module-12/index.html)
+
 > ### Module-15
-- [frut-hall](https://mitu1403.github.io/phero-practice/MS-2/Module-15/index.html)
+- [frut-hall](https://mitu1403.github.io/phero-practice/MS-3/Module-15/index.html)
