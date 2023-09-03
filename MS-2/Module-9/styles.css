@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+:root {
+  --dark1: #131313;
+  --dark2: #424242;
+  --dark3: #727272;
+  --white: #ffffff;
+  --orange: #ff900e;
+}
+
+* {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "Work Sans", sans-serif;
+}
+section {
+  padding-bottom: 100px;
+}
+h3 {
+  color: var(--dark1);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+p {
+  color: var(--dark3);
+  line-height: 26px;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: var(--orange);
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0px 25px;
+  height: 64px;
+  cursor: pointer;
+}
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img{
+  width: 150px;
+  mix-blend-mode: color-burn;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav li {
+  list-style-type: none;
+  margin-right: 35px;
+}
+nav li a {
+  text-decoration: none;
+  color: var(--dark2);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+
+.banner {
+  text-align: center;
+  padding: 50px 0;
+}
+.banner-content {
+  max-width: 862px;
+  padding: 50px 0;
+}
+.banner-content h1 {
+  color: var(--dark1);
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-content p {
+  margin: 20px 0;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.team-section {
+  display: flex;
+  gap: 73px;
+}
+.team-section > div {
+  width: calc((100% - 73px) / 2);
+}
+.team-img-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  gap: 5px;
+}
+.team-img-section img {
+  border-radius: 8px;
+}
+.team-content {
+  padding: 0px 70px;
+  margin: auto 0;
+}
+.team-content p {
+  margin: 20px 0;
+}
+.team-content h3 {
+  font-weight: 500;
+}
+.of-our {
+  color: var(--dark1);
+  font-weight: 700;
+}
+.features {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.feature {
+  display: flex;
+  gap: 50px;
+}
+.feature-content{
+  width: 586px;
+}
+.feature-content h3 {
+  width: 468px;
+  margin: 0;
+  padding-left: 20px;
+  border-left: 5px solid var(--orange);
+}
+.feature-content p {
+  margin: 30px 0;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-container .card-items {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  /* width: 586px; */
+}
+.card-items p {
+  margin: 10px 0;
+}
+.badge-div {
+  border-radius: 8px;
+  background: #ff900e;
+  width: 342px;
+  text-align: center;
+  padding: 20px 1px;
+  position: relative;
+  bottom: 90px;
+  left: -270px;
+}
+.badge-div h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px; /* 107.692% */
+}
+.badge-div p {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.facts .facts-title {
+  margin: 20px 0 70px 0;
+  width: 542px;
+}
+.facts-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.facts-card .card {
+  border-radius: 8px;
+  border: 1px solid var(--orange);
+  padding: 40px;
+  text-align: center;
+  width: 15%;
+}
+.facts-card h3 {
+  color: var(--dark2);
+  font-weight: 600;
+  margin: 10px 0;
+}
+.facts-card p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sponsers {
+  text-align: center;
+}
+.sponsers-title {
+  margin: 20px auto 50px auto;
+  width: 542px;
+}
+.sponsers-card {
+  display: flex;
+  justify-content: space-between;
+}
+.sponsers-card img {
+  filter: grayscale(100%);
+}
+
+footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+footer p {
+  color: var(--dark2);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 14px;
+  }
+  section {
+    padding-bottom: 50px;
+  }
+  header {
+    padding: 10px 0px;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav h3 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+  }
+  nav li {
+    margin-right: 30px;
+  }
+  nav li a {
+    font-size: 12px;
+  }
+  .banner {
+    padding: 0px 0;
+  }
+  .banner-content {
+    padding: 25px 0;
+    max-width: 300px;
+  }
+  .banner-content h1 {
+    font-size: 1.9rem;
+  }
+  .banner-content p {
+    font-size: 0.8rem;
+    line-height: 16px;
+  }
+  .btn-primary {
+    padding: 0px 20px;
+    font-size: 1rem;
+    height: 40px;
+  }
+  main {
+    padding: 100px 10px;
+  }
+  .team-section,
+  .facts-card,
+  .sponsers-card,
+  .feature {
+    flex-direction: column;
+  }
+  .team-section > div {
+    width: 100%;
+  }
+  .team-content {
+    padding: 0;
+  }
+  .facts .facts-title {
+    margin: 20px 0 70px 0;
+    width: auto;
+  }
+  .facts-card .card {
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  .facts-card img {
+    width: 20%;
+  }
+  .sponsers-title {
+    margin: 20px auto;
+    width: auto;
+  }
+  .sponsers-card {
+    gap: 40px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  .feature{
+    gap: 30px;
+  }
+  .feature-content{
+    width: auto;
+  }
+  .feature-content h3 {
+    width: auto;
+  }
+  .feature-content p {
+    margin: 30px 0;
+  }
+  .badge-div {
+    position: static;
+    width: auto;
+  }
+  .badge-div h3{
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  img {
+    width: 80%;
+  }
+  main {
+    padding: 100px 20px;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .team-content {
+    padding: 0;
+    margin: auto 0;
+  }
+  .facts-card,
+  .sponsers-card {
+    flex-wrap: wrap;
+  }
+  .facts-card .card h3 {
+    font-size: 1.5rem;
+  }
+  .facts-card img {
+    width: 40%;
+  }
+  .sponsers-card {
+    gap: 40px;
+  }
+  .feature{
+    flex-direction: column;
+  }
+  .feature-img img{
+    width: 100%;
+  }
+  .badge-div {
+    position: static;
+    width: auto;
+  }
+  .badge-div h3{
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1919px) {
+  img {
+    width: 80%;
+  }
+  main {
+    padding: 100px 30px;
+  }
+  .facts-card .card h3 {
+    font-size: 1.5rem;
+  }
+  .facts-card img {
+    width: 40%;
+  }
+  /* .feature{
+    flex-direction: column;
+  } */
+  .feature-img img{
+    width: 100%;
+  }
+  /* .badge-div {
+    position: static;
+    width: auto;
+  }
+  .badge-div h3{
+    font-size: 40px;
+  } */
+}
