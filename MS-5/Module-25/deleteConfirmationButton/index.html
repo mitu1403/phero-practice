@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="text-align: center">
+    <p id="text-field">This paragraph is trigerred by the button</p>
+    <br />
+    <input id="input-field" type="text" />
+    <button id="btn-delete" disabled>Delete</button>
+
+    <script>
+      document.getElementById("input-field").addEventListener("keyup", function (event) {
+          if (event.target.value === "delete") {
+            document.getElementById("btn-delete").removeAttribute("disabled");
+          } else {
+            document.getElementById("btn-delete").setAttribute("disabled", true);
+          }
+        });
+
+      document.getElementById("btn-delete").addEventListener("click", function () {
+          const textField = document.getElementById("text-field");
+          textField.style.display = "none";
+        });
+    </script>
+  </body>
+</html>
